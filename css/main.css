@@ -672,7 +672,7 @@ About Us Style
 }
 
 #about .about p {
-    color: #f6932e;
+    color: #fff;
     line-height: 219%;
 }
 
@@ -970,9 +970,19 @@ footer .row {
 }
 
 .jumbotron {
-    background: #3c5e85ed;
-    color: black;
+    background-color: #8fb1d8ed; /* For browsers that do not support gradients */
+    background-image: linear-gradient( #3c5e85ed, #4d6f97ed, #3e5b6a);
+    box-shadow: 10px 10px 5px grey;
+   
 }
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
 Media Queries Style
