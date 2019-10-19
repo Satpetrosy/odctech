@@ -132,7 +132,7 @@ Buttons Styles
     font-size: 16px;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    border-radius: 0;
+    border-radius: 15px;
     color: #fff;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -142,6 +142,7 @@ Buttons Styles
     letter-spacing: 0.05em;
     text-transform: uppercase;
     border: 3px solid #24242a;
+    outline: none;
 }
 
 .btn-block:hover,
@@ -793,7 +794,7 @@ Contact Us Style
 #contact .form-control {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
-    border-radius: 0;
+    border-radius: 15px;
     border: 2px solid #24242a;
     color: #0d0d0d;
     min-height: 45px;
@@ -817,7 +818,7 @@ career
     cursor: pointer;
     border-radius: 8px;
     border: 1px solid gray;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .item1:hover {
@@ -838,15 +839,16 @@ career
 }
 
 .disable > .row > .col-md-6 > p {
-    color: #9f8787;
+    color: #6c6464;
 }
 
 .disable:hover {
-    background-color: #444;
+    background-color: #ccc;
 }
 
 .disable:hover > .row > .col-md-6 > p {
-    color: #9f8787;
+    color: #6c6464;
+    
 }
 
 .panel2 {
