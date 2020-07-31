@@ -3,7 +3,7 @@
  *  v1.3.2
  */
 
-.owl-origin {
+/* .owl-origin {
 	-webkit-perspective: 1200px;
 	-webkit-perspective-origin-x : 50%;
 	-webkit-perspective-origin-y : 50%;
@@ -160,4 +160,4 @@
 }
 @keyframes scaleUpTo {
   to { opacity: 0; transform: scale(1.5); }
-}
+} 
